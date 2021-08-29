@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Салярка</title>
+    <link href="./style-toplivo.css" rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <br>
+    <h2>Расчет топлива:</h2>
+    <div>
+        <input type="number" id="sekA1" value="0">
+        <input type="number" id="sekA2" value="0">
+        <button onclick="func1()" id="summaA">Рассчитать сек А</button>
+    </div>
+    <br>
+    <div id="outA" class="output">Топливо в сек. А</div>
+    <br>
+    <div>
+        <input type="number" id="sekB1" value="0">
+        <input type="number" id="sekB2" value="0">
+        <button onclick="func2()" id="summaB">Рассчитать сек Б</button>
+    </div>
+    <br>
+    <div id="outB" class="output">Топливо в сек. Б</div>
+    <div>
+        <hr>
+        <h3>Введи удельный вес топлива:</h3>
+        <input type="number" id="udel" step="0.001" min="-0" value="0">
+    </div>
+    <br>
+    <button onclick="raschetUdel()">Рассчитать в Килограммах</button>
+    <br>
+    <br>
+    <div id="kgA" class="output">Килограмм сек А</div>
+    <br>
+    <div id="kgB" class="output">Килограмм сек Б</div>
+    <form action="../../index.html" target="_blank">
+        <br>
+        <button>На Главную</button>
+    </form>
+    <br>
+    <form action="../Yavka/yavka.html" target="_blank">
+        <button>К Явке</button>
+    </form>
+    <br>
+    <hr>
+    <textarea style="width:300px; height:150px;">Заметки, Замечания</textarea>
+    <script src="./calc.js"></script>
+</body>
+
+</html>

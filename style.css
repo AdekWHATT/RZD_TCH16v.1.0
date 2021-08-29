@@ -1,0 +1,58 @@
+body {
+    background: url(./img/fon-2.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#beta {
+    text-align: center;
+    color: rgba(0, 0, 255, 0.267);
+}
+
+hr {
+    margin: 9px;
+    border-top: 1px solid;
+    width: auto;
+}
+
+
+/* button {
+    height: 33px;
+} */
+
+#outA,
+#outB,
+#kgA,
+#kgB {
+    font-size: 22px;
+}
+
+#sekA1,
+#sekA2,
+#sekB1,
+#sekB2,
+#udel {
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button {
+    height: 33px;
+    appearance: none;
+    border: 0;
+    border-radius: 12px;
+    background: #1609c7;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    font-size: 17px;
+    font-style: initial;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+}
+
+h2 {
+    text-shadow: 0 0 9px rgba(0, 47, 255, 0.575);
+    font-size: 27px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Че там по времени?</title>
+    <link href="./yabka.css" rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <!-- <h3>Ваша Явка:</h3> -->
+    <h3>Участок:</h3>
+    <select id="uchastki"  name="uch">
+            <option value="0">Куда Поедем?</option>
+            <option value="1">Бугульма - Кандры</option>
+            <option value="2">Бугульма - Круглое Поле</option>
+            <option value="3">Бугульма - Ульяновск</option>
+        </select>
+    <hr>
+    <h3>Тепловоз:</h3>
+    <select id="teplovoz" name="tepl">
+            <option value="0">Какой тепловоз?</option>
+            <option value="1">Двухсекционный</option>
+            <option value="2">Трехсекционный</option>
+        </select>
+    <br>
+    <hr>
+    
+    <div id="outNP"></div>
+    <div id="outOP"></div>
+    <div id="outKP"></div>
+    <div id="Vsego"></div>
+    <br>
+
+    <button onclick="Func1()">Рассчитать</button>
+
+    <form action="../../index.html" target="_blank">
+        <br>
+        <button>На Главную</button>
+    </form>
+    <br>
+    <form action="../Toplivo/toplivo.html" target="_blank">
+        <button>К Топливу</button>
+    </form>
+    <hr>
+    <script src="./time-yavka.js"></script>
+</body>
+
+</html>

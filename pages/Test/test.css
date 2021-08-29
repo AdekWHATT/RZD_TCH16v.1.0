@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(7, 21, 97, 0.568);
+}
+
+button {
+    height: 33px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+}
+
+button:active {
+    color: rgb(255, 0, 0);
+}
+
+#outA,
+#outB,
+#kgA,
+#kgB {
+    width: 200px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+#sekA1,
+#sekA2,
+#sekB1,
+#sekB2,
+#udel {
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+}
+
+h2,
+h3 {
+    text-shadow: 0 0 10px rgb(18, 216, 11);
+    font-size: 27px;
+}
+
+img {
+    width: 1200px;
+    height: 1000px;
+}

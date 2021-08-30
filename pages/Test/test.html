@@ -8,14 +8,20 @@
     <link href="./test.css" rel="stylesheet">
 </head>
 <body>
-   <img src="./img/tabl1.jpg">
-    
-    
-    
-    
-    
-    
-   <form action="../../index.html" target="_blank">
+   <!-- <img src="./img/tabl1.jpg"> -->
+   <div>
+   <select id="kolSek"  name="sekcii">
+    <option value="0">Сколько секций?</option>
+    <option value="1">2ТЭ10М</option>
+    <option value="2">3ТЭ10М</option>
+</select>
+   </div>
+   <div>
+       <hr>
+       <button onclick="Tabl()">Посмотреть таблицу</button>
+   </div>
+   <div id="Out"></div>
+     <form action="../../index.html" target="_blank">
     <br>
     <button>На Главную</button>
 <!-- </form>

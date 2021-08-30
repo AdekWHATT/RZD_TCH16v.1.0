@@ -18,34 +18,12 @@ button:active {
     color: rgb(255, 0, 0);
 }
 
-#outA,
-#outB,
-#kgA,
-#kgB {
-    width: 200px;
-    height: 30px;
-    font-size: 22px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.664);
-}
-
-#sekA1,
-#sekA2,
-#sekB1,
-#sekB2,
-#udel {
-    width: 70px;
-    height: 50px;
-    font-size: 20px;
-}
-
-h2,
-h3 {
-    text-shadow: 0 0 10px rgb(18, 216, 11);
-    font-size: 27px;
-}
-
-img {
+/* img {
     width: 1200px;
     height: 1000px;
+} */
+select {
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
 }
